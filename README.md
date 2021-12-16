@@ -7,14 +7,14 @@ Los datos son oficiales, pero puesto que no poseen una apertura pública por par
 Los mismos se presentan en una carpeta y mediante un script complementario pongo a disposición una alternativa para su lectura, sistematización y visualización en R.
 
 
-# Referencias:
+## Referencias:
 
 Observatorio: https://observatorio.laizquierdadiario.com/
 
 Fuente original descargada: https://drive.google.com/drive/u/0/folders/1jczOaXAabtu149m1zn_rrwq3X0iBppa5 
 
 
-# Actualmente:
+## Actualmente:
 
 Con los datos y lógica de visualización armé una shiny app: https://monitores.shinyapps.io/_legislativas21/
 
