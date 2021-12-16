@@ -156,7 +156,7 @@ mapview::mapview(bavotos_regiones)
 saveRDS(bavotos_regiones, "bavotos_regiones.rds")
 
 
-#Caso de USO de la data:
+#Caso de USO de la data: https://monitores.shinyapps.io/_legislativas21/
 
 
 
