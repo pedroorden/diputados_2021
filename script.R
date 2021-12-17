@@ -85,9 +85,10 @@ votos_ba<-votos%>%
 #Primera iteración de georefereciamiento
 
 
-#Descargamos los datos de circuitos para la Provincia de Buenos Aires
-#Fuente: Datos abiertos PBA
-geo_ba<-read_sf("https://catalogo.datos.gba.gob.ar/dataset/4fe68b69-c788-4c06-ac67-26e4ebc7416b/resource/35322bb6-72f5-44ae-81eb-1686ca473e06/download/circuitos-electorales.geojson")
+# Levantamos los datos de circuitos para la Provincia de Buenos Aires
+geo_ba<-read_sf("ba.geojson")
+# Fuente: Datos abiertos PBA (ojo los datos del estado de la provincia de buenos aires andan mal y se cane constantemente, usamos un respaldo)
+# geo_ba<-read_sf("https://catalogo.datos.gba.gob.ar/dataset/4fe68b69-c788-4c06-ac67-26e4ebc7416b/resource/35322bb6-72f5-44ae-81eb-1686ca473e06/download/circuitos-electorales.geojson")
 
 
 geo_ba<-geo_ba%>%
@@ -135,11 +136,6 @@ votosn4<-votos_ba%>%
 votos_4 <- votosn4%>%
   left_join(circuitos_geo, by=c("n_4"="circuito"))%>%
   drop_na()
-
-
-chec2<-votosn4%>%
-  group_by(circuito)%>%
-  count()
 
 
 bavotos_regiones<-votos_5%>%
