@@ -20,3 +20,5 @@ Observatorio Electoral de la Izquierda Diario: https://observatorio.laizquierdad
 Repositorio consultado: https://drive.google.com/drive/u/0/folders/1jczOaXAabtu149m1zn_rrwq3X0iBppa5 
 
 Datos Abiertos PBA: https://catalogo.datos.gba.gob.ar/pt_BR/dataset/circuitos-electorales 
+
+Extracción y monitoreode datos electorales PASO 2021: https://github.com/pedroorden/paso2021
