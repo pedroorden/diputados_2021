@@ -21,4 +21,4 @@ Repositorio consultado: https://drive.google.com/drive/u/0/folders/1jczOaXAabtu1
 
 Datos Abiertos PBA: https://catalogo.datos.gba.gob.ar/pt_BR/dataset/circuitos-electorales 
 
-Extracción y monitoreode datos electorales PASO 2021: https://github.com/pedroorden/paso2021
+Extracción y monitoreo de datos electorales PASO 2021: https://github.com/pedroorden/paso2021
